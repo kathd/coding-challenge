@@ -1,0 +1,58 @@
+div.celebrities {
+    height: 650px;
+    
+}
+
+div.celeb-list {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.celebrities ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.celebrities li {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.celebrities a {
+    color: black;
+    text-decoration: none;
+}
+
+.celebrities a:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+img.list-celeb {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin: 0 20px;
+    border-radius: 50%;
+}
+
+img.img-celeb {
+    width: 150px;
+
+}
+
+div.more-info {
+    width: 500px;
+    border: 1px dotted black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 40px 20px;
+    /* make it fixed */
+}

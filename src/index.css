@@ -19,10 +19,18 @@ code {
 
 h1 {
   margin: 10px;
+  text-align: center;
 }
 
 .page {
   height: 650px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .flex-column {
